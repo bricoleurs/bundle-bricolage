@@ -1,13 +1,12 @@
---- #YAML:1.0
+---
 name: Bundle-Bricolage
-version: 1.8.2
+version: 1.8.3
 author:
   - David Wheeler <david@wheeler.net>
-abstract: |-
-  Modules required to run Bricolage content management system.
+abstract: Modules required to run Bricolage content management system.
 license: perl
 provides:
   Bundle::Bricolage:
     file: lib/Bundle/Bricolage.pm
-    version: 1.8.2
-generated_by: Module::Build version 0.25_01
+    version: 1.8.3
+generated_by: Module::Build version 0.26

@@ -1,6 +1,6 @@
 Revision history for Perl module Bundle::Bricolage.
 
-1.8.3
+1.8.3  2005-03-18T05:58:44
        - Added Test::MockModule.
 
 1.8.2  2004-09-11T21:10:02
