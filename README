@@ -45,6 +45,7 @@ IO::Stringy          - I/O on in-core objects like strings and arrays
 MIME::Parser         - Experimental class for parsing MIME streams
 SOAP::Lite           - Client and server side SOAP implementation
 Apache::ConfigFile   - Parse an Apache style httpd.conf config file
+Apache::SizeLimit    - Because size does matter
 
 INSTALLATION
 

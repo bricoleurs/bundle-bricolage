@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.3.1';
+our $VERSION = '1.3.2';
 
 1;
 __END__
@@ -81,9 +81,11 @@ IO::Stringy - I/O on in-core objects like strings and arrays
 
 MIME::Parser - Experimental class for parsing MIME streams
 
-SOAP::Lite - Client and server side SOAP implementation
+SOAP::Lite 0.55 - Client and server side SOAP implementation
 
 Apache::ConfigFile - Parse an Apache style httpd.conf config file
+
+Apache::SizeLimit - Because size does matter
 
 =head1 DESCRIPTION
 
