@@ -1,6 +1,6 @@
 Revision history for Perl module Bundle::Bricolage.
 
-1.8.2
+1.8.2  2004-09-11T21:10:02
        - Now requires version 1.22 or later of DBD::Pg.
 
 1.8.1  2004-07-08T05:39:64
