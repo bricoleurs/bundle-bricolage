@@ -1,13 +1,13 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.2.1';
+our $VERSION = '1.2.2';
 
 1;
 __END__
 
 =head1 NAME
 
-Bundle::Bricolage - Modules required to run Bricolage.
+Bundle::Bricolage - Modules required to run Bricolage content management system.
 
 =head1 SYNOPSIS
 
@@ -26,6 +26,8 @@ Bundle::libnet - A bundle to install all libnet related modules
 Devel::Symdump - Dump symbol names or the symbol table
 
 DBI - Database independent interface for Perl
+
+Error - Error/exception handling in an OO-ish way
 
 Cache::Cache - The Cache interface
 
