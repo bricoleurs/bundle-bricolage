@@ -7,8 +7,7 @@ __END__
 
 =head1 NAME
 
-Bundle::Bricolage - Modules required to run Bricolage content management
-system.
+Bundle::Bricolage - Modules required to run Bricolage content management system.
 
 =head1 SYNOPSIS
 
