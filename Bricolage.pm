@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.2.2';
+our $VERSION = '1.2.3';
 
 1;
 __END__
@@ -74,6 +74,8 @@ Text::Balanced - Extract delimited text sequences from strings
 HTML::Template - Perl module to use HTML Templates from CGI scripts
 
 HTML::Template::Expr - HTML::Template extension adding expression support
+
+Apache::ConfigFile - Parse an Apache style httpd.conf config file
 
 =head1 DESCRIPTION
 
