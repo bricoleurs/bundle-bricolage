@@ -109,11 +109,11 @@ Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
 
-=item HTTP::BrowserDetect
+HTTP::BrowserDetect
 
-=item Params::CallbackRequest 1.10
+Params::CallbackRequest 1.10
 
-=item MasonX::Interp::WithCallbacks 1.10
+MasonX::Interp::WithCallbacks 1.10
 
 =head1 AUTHOR
 
