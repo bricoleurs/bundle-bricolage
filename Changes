@@ -1,5 +1,9 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.4.1  Thu Sep  5 01:30:41 2002
+       - Removed HTML::Mason. It will be added back in once Bricolage has
+         been ported to Mason 1.1x.
+
 1.4.0  Wed Sep 04 04:33:32 2002
        - Updated for Bricolage 1.4.0, with some new modules added.
        - Updated the Bricolage URL.

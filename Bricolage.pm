@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.4.0';
+our $VERSION = '1.4.1';
 
 1;
 __END__
@@ -21,6 +21,11 @@ Bricolage. Bricolage is a 100% pure Perl content-management and publishing
 system which features intuitive and highly-configurable administration,
 workflow, permissions, templating, server-neutral output, distribution, and
 document management.
+
+B<Note:> This bundle does not contain L<HTML::Mason> because Bricolage has not
+yet been ported to the latest version. Please download HTML::Mason 1.05 from
+L<http://search.cpan.org/CPAN/authors/id/J/JS/JSWARTZ/HTML-Mason-1.05.tar.gz>
+and install it manually.
 
 B<Note:> This bundle does not contain the modules that are optional in
 Bricolage. To get those mosules, install
@@ -71,8 +76,6 @@ Text::Iconv - Perl interface to iconv() codeset conversion function
 MLDBM - Store multi-level hash structure in single level tied hash
 
 Params::Validate - Validate method/function parameters
-
-HTML::Mason 1.03 - High-performance, dynamic web site authoring system
 
 DBD::Pg - PostgreSQL database driver for the DBI module
 
