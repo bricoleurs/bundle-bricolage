@@ -3,6 +3,7 @@ Revision history for Perl module Bundle::Bricolage.
 1.2.3  Fri Feb 08 21:14:03 2002
        - Added Changes file.
        - Added newly required Apache::ConfigFile module.
+       - Added test.pl
 
 1.2.2  Mon Feb 05 03:25:00 2002
        - Added Error.pm to the list of modules in the bundle, as it is required

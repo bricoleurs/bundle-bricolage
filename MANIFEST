@@ -3,3 +3,4 @@ Makefile.PL
 MANIFEST
 README
 Changes
+test.pl
