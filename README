@@ -1,0 +1,59 @@
+Bundle/Bricolage version 1.2.0
+==============================
+
+DESCRIPTION
+
+The bundle provides an easy way to install all of the modules required by
+Bricolage. Bricolage is a 100% pure Perl content-management and publishing
+system which features intuitive and highly-configurable administration,
+workflow, permissions, templating, server-neutral output, distribution, and
+document management. Its home page is http://bricolage.thepirtgroup.com/.
+
+INCLUDED MODULES
+
+Storable             - Persistency for perl data structures
+Time::HiRes          - High resolution ualarm, usleep, and gettimeofday
+Unix::Syslog         - Perl interface to the UNIX syslog(3) calls
+Bundle::libnet       - A bundle to install all libnet related modules
+Devel::Symdump       - Dump symbol names or the symbol table
+DBI                  - Database independent interface for Perl
+Cache::Cache         - The Cache interface
+Digest::MD5          - Perl interface to the MD5 Algorithm
+MD5                  - Perl interface to the MD5 Algorithm
+URI                  - Uniform Resource Identifiers (absolute and relative)
+HTML::Tagset         - Data tables useful in parsing HTML
+HTML::Parser         - HTML parser class
+MIME::Base64         - Encoding and decoding of base64 strings
+XML::Writer          - Perl extension for writing XML documents
+LWP                  - Library for WWW access in Perl
+Image::Info          - Extract meta information from image files
+Text::Iconv          - Perl interface to iconv() codeset conversion function
+MLDBM                - Store multi-level hash structure in single level tied hash
+Params::Validate     - Validate method/function parameters
+HTML::Mason 1.04     - High-performance, dynamic web site authoring system
+DBD::Pg              - PostgreSQL database driver for the DBI module
+Apache::Session      - A persistence framework for session data
+Apache::libapreq     - Generate compiler and linker flags for libapreq
+Test::Harness        - Run perl standard test scripts with statistics
+Test::Simple         - Basic utilities for writing tests
+Parse::RecDescent    - Generate Recursive-Descent Parsers
+Text::Balanced       - Extract delimited text sequences from strings
+HTML::Template       - Perl module to use HTML Templates from CGI scripts
+HTML::Template::Expr - HTML::Template extension adding expression support
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2002, David Wheeler. All Rights Reserved.
+
+This module is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself.
+
