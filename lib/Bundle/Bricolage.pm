@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.8.2';
+our $VERSION = '1.8.3';
 
 1;
 __END__
@@ -90,6 +90,8 @@ Apache::Session 1.54 - A persistence framework for session data
 Test::Harness 2.03 - Run perl standard test scripts with statistics
 
 Test::Simple - Basic utilities for writing tests
+
+Test::MockModule 0.04 - Override subroutines in a module for unit testing
 
 Text::Balanced - Extract delimited text sequences from strings
 

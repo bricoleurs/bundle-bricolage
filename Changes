@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.8.3
+       - Added Test::MockModule.
+
 1.8.2  2004-09-11T21:10:02
        - Now requires version 1.22 or later of DBD::Pg.
 

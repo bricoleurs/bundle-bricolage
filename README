@@ -1,4 +1,4 @@
-Bundle/Bricolage version 1.8.2
+Bundle/Bricolage version 1.8.3
 ==============================
 
 DESCRIPTION
@@ -43,6 +43,7 @@ Apache::Session 1.54     - A persistence framework for session data
 Apache::Request 1.0      - Generate compiler and linker flags for libapreq
 Test::Harness 2.03       - Run perl standard test scripts with statistics
 Test::Simple             - Basic utilities for writing tests
+Test::MockModule 0.04    - Override subroutines in a module for unit testing
 Text::Balanced           - Extract delimited text sequences from strings
 XML::Parser 2.34         - A Perl module for parsing XML documents
 XML::Simple              - Easy API to read/write XML (esp config files)
