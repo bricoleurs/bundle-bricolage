@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.3.2';
+our $VERSION = '1.3.3';
 
 1;
 __END__
@@ -30,6 +30,8 @@ DBI - Database independent interface for Perl
 Error - Error/exception handling in an OO-ish way
 
 Cache::Cache - The Cache interface
+
+Cache::Mmap - Shared data cache using memory mapped files
 
 Digest::MD5 - Perl interface to the MD5 Algorithm
 

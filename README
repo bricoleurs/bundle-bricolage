@@ -1,4 +1,4 @@
-Bundle/Bricolage version 1.3.0
+Bundle/Bricolage version 1.3.3
 ==============================
 
 DESCRIPTION
@@ -18,6 +18,7 @@ Bundle::libnet       - A bundle to install all libnet related modules
 Devel::Symdump       - Dump symbol names or the symbol table
 DBI                  - Database independent interface for Perl
 Cache::Cache         - The Cache interface
+Cache::Mmap          - Shared data cache using memory mapped files
 Digest::MD5          - Perl interface to the MD5 Algorithm
 URI                  - Uniform Resource Identifiers (absolute and relative)
 HTML::Tagset         - Data tables useful in parsing HTML
