@@ -1,13 +1,14 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.3.3';
+our $VERSION = '1.4.0';
 
 1;
 __END__
 
 =head1 NAME
 
-Bundle::Bricolage - Modules required to run Bricolage content management system.
+Bundle::Bricolage - Modules required to run Bricolage content management
+system.
 
 =head1 SYNOPSIS
 
@@ -21,6 +22,10 @@ system which features intuitive and highly-configurable administration,
 workflow, permissions, templating, server-neutral output, distribution, and
 document management.
 
+B<Note:> This bundle does not contain the modules that are optional in
+Bricolage. To get those mosules, install
+L<Bundle::BricolagePlus|Bundle::BricolagePlus>.
+
 =head1 CONTENTS
 
 Storable - Persistency for perl data structures
@@ -28,6 +33,8 @@ Storable - Persistency for perl data structures
 Time::HiRes - High resolution ualarm, usleep, and gettimeofday
 
 Unix::Syslog - Perl interface to the UNIX syslog(3) calls
+
+Net::Cmd - Network Command class (as used by FTP, SMTP etc)
 
 Bundle::libnet - A bundle to install all libnet related modules
 
@@ -55,6 +62,8 @@ XML::Writer - Perl extension for writing XML documents
 
 LWP - Library for WWW access in Perl
 
+IO::String - Emulate IO::File interface for in-core strings
+
 Image::Info - Extract meta information from image files
 
 Text::Iconv - Perl interface to iconv() codeset conversion function
@@ -63,9 +72,11 @@ MLDBM - Store multi-level hash structure in single level tied hash
 
 Params::Validate - Validate method/function parameters
 
-HTML::Mason 1.04 - High-performance, dynamic web site authoring system
+HTML::Mason 1.03 - High-performance, dynamic web site authoring system
 
 DBD::Pg - PostgreSQL database driver for the DBI module
+
+DB_File - Perl5 access to Berkeley DB version 1.x
 
 Apache::Session 1.54 - A persistence framework for session data
 
@@ -93,23 +104,26 @@ MIME::Parser - Experimental class for parsing MIME streams
 
 SOAP::Lite 0.55 - Client and server side SOAP implementation
 
-Apache::ConfigFile - Parse an Apache style httpd.conf config file
+Apache::ConfigFile  0.14 - Parse an Apache style httpd.conf config file
 
-Apache::SizeLimit - Because size does matter
+File::Temp - Return name and handle of a temporary file safely
 
 =head1 AUTHOR
 
-David Wheeler E<lt>david@wheeler.netE<gt>
+David Wheeler <david@wheeler.net>
 
 =head1 SEE ALSO
 
-L<http://bricolage.thepirtgroup.com/>.
+The Bricolage home page, at L<http://bricolage.cc/>.
+
+See L<Bundle::BricolagePlus|Bundle::BricolagePlus> for modules that are
+optional in Bricolage.
 
 =head1 COPYRIGHT AND LICENSE
 
 Copyright (c) 2002, David Wheeler. All Rights Reserved.
 
-This module is free software; you can redistribute it and/or modify it under the
-same terms as Perl itself.
+This module is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
 
 =cut
