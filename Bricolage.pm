@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.2.3';
+our $VERSION = '1.3.0';
 
 1;
 __END__
@@ -74,6 +74,16 @@ Text::Balanced - Extract delimited text sequences from strings
 HTML::Template - Perl module to use HTML Templates from CGI scripts
 
 HTML::Template::Expr - HTML::Template extension adding expression support
+
+XML::Parser - A Perl module for parsing XML documents
+
+XML::Simple - Easy API to read/write XML (esp config files)
+
+IO::Stringy - I/O on in-core objects like strings and arrays
+
+MIME::Parser - Experimental class for parsing MIME streams
+
+SOAP::Lite - Client and server side SOAP implementation
 
 Apache::ConfigFile - Parse an Apache style httpd.conf config file
 

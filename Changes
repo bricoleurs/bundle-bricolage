@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.3.0  Thu Feb 14 13:18:28 2002
+       - Added modules required for SOAP support.
+
 1.2.3  Fri Feb 08 21:14:03 2002
        - Added Changes file.
        - Added newly required Apache::ConfigFile module.
