@@ -28,7 +28,6 @@ HTML::Parser             - HTML parser class
 MIME::Base64             - Encoding and decoding of base64 strings
 MIME::Tools              - Modules for parsing (and creating!) MIME entities
 Mail::Address            - Parse mail addresses
-Net::SMTP                - Simple Mail Transfer Protocol Client
 XML::Writer              - Perl extension for writing XML documents
 LWP                      - Library for WWW access in Perl
 Image::Info              - Extract meta information from image files
@@ -45,7 +44,6 @@ Apache::Session 1.54     - A persistence framework for session data
 Apache::Request 1.0      - Generate compiler and linker flags for libapreq
 Test::Harness 2.03       - Run perl standard test scripts with statistics
 Test::Simple             - Basic utilities for writing tests
-Parse::RecDescent        - Generate Recursive-Descent Parsers
 Text::Balanced           - Extract delimited text sequences from strings
 XML::Parser 2.34         - A Perl module for parsing XML documents
 XML::Simple              - Easy API to read/write XML (esp config files)

@@ -63,8 +63,6 @@ MIME::Tools - modules for parsing (and creating!) MIME entities
 
 Mail::Address - Parse mail addresses
 
-Net::SMTP - Simple Mail Transfer Protocol Client
-
 XML::Writer - Perl extension for writing XML documents
 
 LWP - Library for WWW access in Perl
@@ -94,8 +92,6 @@ Apache::Session 1.54 - A persistence framework for session data
 Test::Harness 2.03 - Run perl standard test scripts with statistics
 
 Test::Simple - Basic utilities for writing tests
-
-Parse::RecDescent - Generate Recursive-Descent Parsers
 
 Text::Balanced - Extract delimited text sequences from strings
 
