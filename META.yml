@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name: Bundle-Bricolage
+version: 1.6.1
+license: perl
+distribution_type: module
+requires: {}
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  Bundle::Bricolage:
+    file: lib/Bundle/Bricolage.pm
+    version: 1.6.1
+generated_by: Module::Build version 0.19_05
