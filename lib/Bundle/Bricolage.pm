@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.8.1';
+our $VERSION = '1.8.2';
 
 1;
 __END__
@@ -81,7 +81,7 @@ Apache::Request 1.0 - Generate compiler and linker flags for libapreq
 
 HTML::Mason 1.23 - High-Performance, Dynamic Web Site Authoring System
 
-DBD::Pg - PostgreSQL database driver for the DBI module
+DBD::Pg 1.22 - PostgreSQL database driver for the DBI module
 
 DB_File - Perl5 access to Berkeley DB version 1.x
 

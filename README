@@ -1,4 +1,4 @@
-Bundle/Bricolage version 1.8.1
+Bundle/Bricolage version 1.8.2
 ==============================
 
 DESCRIPTION
@@ -37,7 +37,7 @@ Params::Validate 0.57    - Validate method/function parameters
 Exception::Class 1.12    - Perl Exceptions Base Class
 Class::Container 0.09    - Glues object frameworks together transparently
 HTML::Mason 1.23         - High-Performance, Dynamic Web Site Authoring System
-DBD::Pg                  - PostgreSQL database driver for the DBI module
+DBD::Pg 1.22             - PostgreSQL database driver for the DBI module
 DB_File                  - Perl5 access to Berkeley DB version 1.x
 Apache::Session 1.54     - A persistence framework for session data
 Apache::Request 1.0      - Generate compiler and linker flags for libapreq
