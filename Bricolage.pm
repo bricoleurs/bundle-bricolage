@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.4.1';
+our $VERSION = '1.6.0';
 
 1;
 __END__
@@ -21,11 +21,6 @@ Bricolage. Bricolage is a 100% pure Perl content-management and publishing
 system which features intuitive and highly-configurable administration,
 workflow, permissions, templating, server-neutral output, distribution, and
 document management.
-
-B<Note:> This bundle does not contain L<HTML::Mason> because Bricolage has not
-yet been ported to the latest version. Please download HTML::Mason 1.05 from
-L<http://search.cpan.org/CPAN/authors/id/J/JS/JSWARTZ/HTML-Mason-1.05.tar.gz>
-and install it manually.
 
 B<Note:> This bundle does not contain the modules that are optional in
 Bricolage. To get those mosules, install
@@ -55,6 +50,8 @@ Cache::Mmap - Shared data cache using memory mapped files
 
 Digest::MD5 - Perl interface to the MD5 Algorithm
 
+Digest::SHA1 2.01 - Perl interface to the SHA-1 Algorithm
+
 URI - Uniform Resource Identifiers (absolute and relative)
 
 HTML::Tagset - Data tables useful in parsing HTML
@@ -67,15 +64,17 @@ XML::Writer - Perl extension for writing XML documents
 
 LWP - Library for WWW access in Perl
 
-IO::String - Emulate IO::File interface for in-core strings
-
 Image::Info - Extract meta information from image files
 
 Text::Iconv - Perl interface to iconv() codeset conversion function
 
 MLDBM - Store multi-level hash structure in single level tied hash
 
-Params::Validate - Validate method/function parameters
+Params::Validate 0.57 - Validate method/function parameters
+
+Exception::Class 1.12 - Perl Exceptions Base Class
+
+HTML::Mason 1.16 - High-Performance, Dynamic Web Site Authoring System
 
 DBD::Pg - PostgreSQL database driver for the DBI module
 
@@ -83,9 +82,9 @@ DB_File - Perl5 access to Berkeley DB version 1.x
 
 Apache::Session 1.54 - A persistence framework for session data
 
-Apache::libapreq - Generate compiler and linker flags for libapreq
+Apache::Request 1.0 - Generate compiler and linker flags for libapreq
 
-Test::Harness - Run perl standard test scripts with statistics
+Test::Harness 2.03 - Run perl standard test scripts with statistics
 
 Test::Simple - Basic utilities for writing tests
 
@@ -107,9 +106,15 @@ MIME::Parser - Experimental class for parsing MIME streams
 
 SOAP::Lite 0.55 - Client and server side SOAP implementation
 
-Apache::ConfigFile  0.14 - Parse an Apache style httpd.conf config file
+Apache::ConfigFile 0.14 - Parse an Apache Style httpd.conf Config File
 
-File::Temp - Return name and handle of a temporary file safely
+File::Temp - Return Name and Handle of a Temporary File Safely
+
+Text::Soundex - Implementation of the Soundex Algorithm as Described by Knuth
+
+Locale::Maketext - Framework for Localization in Perl
+
+Test::Class - xUnit/JUnit style Test Suite System
 
 =head1 AUTHOR
 
@@ -124,7 +129,7 @@ optional in Bricolage.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2002, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2003, David Wheeler. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

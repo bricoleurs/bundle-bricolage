@@ -1,5 +1,10 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.6.0  1.6.0  Tue Apr 29 08:46:12 2003
+       - Updated fro Bricolage 1.6.0, with some new modules added.
+       - Restored HTML::Mason to the list, now that 1.6.0 requires
+         Mason 1.16 or later.
+
 1.4.1  Thu Sep  5 01:30:41 2002
        - Removed HTML::Mason. It will be added back in once Bricolage has
          been ported to Mason 1.1x.
