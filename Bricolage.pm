@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.3.0';
+our $VERSION = '1.3.1';
 
 1;
 __END__
@@ -33,8 +33,6 @@ Cache::Cache - The Cache interface
 
 Digest::MD5 - Perl interface to the MD5 Algorithm
 
-MD5 - Perl interface to the MD5 Algorithm
-
 URI - Uniform Resource Identifiers (absolute and relative)
 
 HTML::Tagset - Data tables useful in parsing HTML
@@ -59,7 +57,7 @@ HTML::Mason 1.04 - High-performance, dynamic web site authoring system
 
 DBD::Pg - PostgreSQL database driver for the DBI module
 
-Apache::Session - A persistence framework for session data
+Apache::Session 1.54 - A persistence framework for session data
 
 Apache::libapreq - Generate compiler and linker flags for libapreq
 
