@@ -13,6 +13,14 @@ Bundle::Bricolage - Modules required to run Bricolage content management system.
 
 C<perl -MCPAN -e 'install Bundle::Bricolage'>
 
+=head1 DESCRIPTION
+
+The bundle provides an easy way to install all of the modules required by
+Bricolage. Bricolage is a 100% pure Perl content-management and publishing
+system which features intuitive and highly-configurable administration,
+workflow, permissions, templating, server-neutral output, distribution, and
+document management.
+
 =head1 CONTENTS
 
 Storable - Persistency for perl data structures
@@ -88,14 +96,6 @@ SOAP::Lite 0.55 - Client and server side SOAP implementation
 Apache::ConfigFile - Parse an Apache style httpd.conf config file
 
 Apache::SizeLimit - Because size does matter
-
-=head1 DESCRIPTION
-
-The bundle provides an easy way to install all of the modules required by
-Bricolage. Bricolage is a 100% pure Perl content-management and publishing
-system which features intuitive and highly-configurable administration,
-workflow, permissions, templating, server-neutral output, distribution, and
-document management.
 
 =head1 AUTHOR
 
