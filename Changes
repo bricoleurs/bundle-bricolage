@@ -1,7 +1,7 @@
 Revision history for Perl module Bundle::Bricolage.
 
-1.8.0
-       - Updated for Bricolage 1.8.0, with some new modules added.
+1.8.0  2004-05-03T23:46:36
+       - Updated for Bricolage 1.8.0, with several new modules added.
        - Removed Apache::ConfigFile, which is no longer needed by Bricolage.
        - Removed HTML::Template, which is now optional.
        - Removed Parse::RecDescent, which is not used directly by Bricolage,
