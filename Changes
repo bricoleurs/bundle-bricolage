@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.2.3  ##Forthcoming##
+       Added Changes file.
+
 1.2.2  Mon Feb 05 03:25:00 2002
        Added Error.pm to the list of modules in the bundle, as it is required
        by Cache::Cache 0.99.
