@@ -1,4 +1,4 @@
-Bundle/Bricolage version 1.8.0
+Bundle/Bricolage version 1.8.1
 ==============================
 
 DESCRIPTION
@@ -50,11 +50,12 @@ IO::Stringy              - I/O on in-core objects like strings and arrays
 SOAP::Lite 0.55          - Client and server side SOAP implementation
 File::Temp               - Return name and handle of a temporary file safely
 Text::Soundex            - Implementation of the Soundex Algorithm as Described
-                            by Knuth
+                           by Knuth
 Locale::Maketext         - Framework for Localization in Perl
 Test::Class              - xUnit/JUnit style Test Suite System
 HTTP::BrowserDetect      - Determine the Web browser, version, and platform
                            from an HTTP user agent string
+Safe 2.09                - Compile and execute code in restricted compartments
 Params::CallbackRequest 1.10       - Functional and object-oriented callback
                                      architecture
 MasonX::Interp::WithCallbacks 1.10 - Mason callback support via

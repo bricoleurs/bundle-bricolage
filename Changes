@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.8.1  2004-07-08T05:39:64
+       - Added Safe.pm.
+
 1.8.0  2004-05-03T23:46:36
        - Updated for Bricolage 1.8.0, with several new modules added.
        - Removed Apache::ConfigFile, which is no longer needed by Bricolage.

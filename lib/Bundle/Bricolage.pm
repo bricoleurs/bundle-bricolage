@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.8.0';
+our $VERSION = '1.8.1';
 
 1;
 __END__
@@ -110,6 +110,8 @@ Locale::Maketext - Framework for Localization in Perl
 Test::Class - xUnit/JUnit style Test Suite System
 
 HTTP::BrowserDetect
+
+Safe 2.09
 
 Params::CallbackRequest 1.10
 
