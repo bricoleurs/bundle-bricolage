@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.6.1';
+our $VERSION = '1.8.0';
 
 1;
 __END__
@@ -39,7 +39,7 @@ Bundle::libnet - A bundle to install all libnet related modules
 
 Devel::Symdump - Dump symbol names or the symbol table
 
-DBI - Database independent interface for Perl
+DBI 1.18 - Database independent interface for Perl
 
 Error - Error/exception handling in an OO-ish way
 
@@ -59,6 +59,12 @@ HTML::Parser - HTML parser class
 
 MIME::Base64 - Encoding and decoding of base64 strings
 
+MIME::Tools - modules for parsing (and creating!) MIME entities
+
+Mail::Address - Parse mail addresses
+
+Net::SMTP - Simple Mail Transfer Protocol Client
+
 XML::Writer - Perl extension for writing XML documents
 
 LWP - Library for WWW access in Perl
@@ -73,15 +79,17 @@ Params::Validate 0.57 - Validate method/function parameters
 
 Exception::Class 1.12 - Perl Exceptions Base Class
 
-HTML::Mason 1.16 - High-Performance, Dynamic Web Site Authoring System
+Class::Container 0.09 - Glues object frameworks together transparently
+
+Apache::Request 1.0 - Generate compiler and linker flags for libapreq
+
+HTML::Mason 1.23 - High-Performance, Dynamic Web Site Authoring System
 
 DBD::Pg - PostgreSQL database driver for the DBI module
 
 DB_File - Perl5 access to Berkeley DB version 1.x
 
 Apache::Session 1.54 - A persistence framework for session data
-
-Apache::Request 1.0 - Generate compiler and linker flags for libapreq
 
 Test::Harness 2.03 - Run perl standard test scripts with statistics
 
@@ -91,21 +99,13 @@ Parse::RecDescent - Generate Recursive-Descent Parsers
 
 Text::Balanced - Extract delimited text sequences from strings
 
-HTML::Template - Perl module to use HTML Templates from CGI scripts
-
-HTML::Template::Expr - HTML::Template extension adding expression support
-
-XML::Parser - A Perl module for parsing XML documents
+XML::Parser 2.34 - A Perl module for parsing XML documents
 
 XML::Simple - Easy API to read/write XML (esp config files)
 
 IO::Stringy - I/O on in-core objects like strings and arrays
 
-MIME::Parser - Experimental class for parsing MIME streams
-
 SOAP::Lite 0.55 - Client and server side SOAP implementation
-
-Apache::ConfigFile 0.14 - Parse an Apache Style httpd.conf Config File
 
 File::Temp - Return Name and Handle of a Temporary File Safely
 
@@ -114,6 +114,12 @@ Text::Soundex - Implementation of the Soundex Algorithm as Described by Knuth
 Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
+
+=item HTTP::BrowserDetect
+
+=item Params::CallbackRequest 1.10
+
+=item MasonX::Interp::WithCallbacks 1.10
 
 =head1 AUTHOR
 

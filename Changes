@@ -1,12 +1,16 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.8.0
+       - Updated for Bricolage 1.8.0, with some new modules added.
+       - Removed Apache::ConfigFile, which is no longer needed by Bricolage.
+
 1.6.1  Tue Aug 26 18:08:42 2003
        - Switched to Module::Build.
        - Reorganized distribution layout to better reflect Perl standard.
        - Added POD tests.
 
 1.6.0  Tue Apr 29 08:46:12 2003
-       - Updated fro Bricolage 1.6.0, with some new modules added.
+       - Updated for Bricolage 1.6.0, with some new modules added.
        - Restored HTML::Mason to the list, now that 1.6.0 requires
          Mason 1.16 or later.
 
