@@ -69,8 +69,6 @@ LWP - Library for WWW access in Perl
 
 Image::Info - Extract meta information from image files
 
-Text::Iconv - Perl interface to iconv() codeset conversion function
-
 MLDBM - Store multi-level hash structure in single level tied hash
 
 Params::Validate 0.57 - Validate method/function parameters
