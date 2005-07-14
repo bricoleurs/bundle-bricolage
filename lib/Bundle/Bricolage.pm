@@ -111,13 +111,15 @@ Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
 
-HTTP::BrowserDetect
+Term::ReadPassword - Prompt for passwords without echoing to the terminal
 
-Safe 2.09
+HTTP::BrowserDetect - Determine the Web browser, version, and platform from an HTTP user agent string
 
-Params::CallbackRequest 1.10
+Safe 2.09 - Compile and execute code in restricted compartments
 
-MasonX::Interp::WithCallbacks 1.10
+Params::CallbackRequest 1.10 - Functional and object-oriented callback architecture
+
+MasonX::Interp::WithCallbacks 1.10 - Mason callback support via Params::CallbackRequest
 
 =head1 AUTHOR
 
