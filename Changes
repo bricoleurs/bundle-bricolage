@@ -1,5 +1,12 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.9.0
+      - Added new modules required for 1.9.0:
+        + Test::File::Contents.
+        + DateTime
+        + DateTime::TimeZone
+        + Data::UUID
+
 1.8.4
        - Added Term::ReadPassword.
 
