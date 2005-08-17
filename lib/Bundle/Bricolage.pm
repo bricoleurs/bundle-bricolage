@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.8.4';
+our $VERSION = '1.9.0';
 
 1;
 __END__
@@ -93,6 +93,8 @@ Test::Simple - Basic utilities for writing tests
 
 Test::MockModule 0.04 - Override subroutines in a module for unit testing
 
+Test::File::Contents - Test routines for examining the contents of files
+
 Text::Balanced - Extract delimited text sequences from strings
 
 XML::Parser 2.34 - A Perl module for parsing XML documents
@@ -111,15 +113,21 @@ Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
 
-Term::ReadPassword - Prompt for passwords without echoing to the terminal
-
 HTTP::BrowserDetect - Determine the Web browser, version, and platform from an HTTP user agent string
-
-Safe 2.09 - Compile and execute code in restricted compartments
 
 Params::CallbackRequest 1.10 - Functional and object-oriented callback architecture
 
 MasonX::Interp::WithCallbacks 1.10 - Mason callback support via Params::CallbackRequest
+
+Safe 2.09 - Compile and execute code in restricted compartments
+
+DateTime - Date and time objects
+
+DateTime::TimeZone - Time zone object base class and factory
+
+Term::ReadPassword - Prompt for passwords without echoing to the terminal
+
+Data::UUID - Generate globally/universally unique identifiers (GUIDs/UUIDs)
 
 =head1 AUTHOR
 
