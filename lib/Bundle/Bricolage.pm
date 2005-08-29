@@ -129,6 +129,8 @@ Term::ReadPassword - Prompt for passwords without echoing to the terminal
 
 Data::UUID - Generate globally/universally unique identifiers (GUIDs/UUIDs)
 
+List::MoreUtils - Provides the stuff missing in List::Util
+
 =head1 AUTHOR
 
 David Wheeler <david@kineticode.com>
