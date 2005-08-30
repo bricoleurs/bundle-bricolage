@@ -1,10 +1,12 @@
 Revision history for Perl module Bundle::Bricolage.
 
 1.9.1
-      - Added List::MoreUtils.
+      - Added new modules required for Bricolage 1.9.1:
+        + List::Util
+        + List::MoreUtils
 
 1.9.0  2005-08-17T23:35:49
-      - Added new modules required for 1.9.0:
+      - Added new modules required for Bricolage 1.9.0:
         + Test::File::Contents.
         + DateTime
         + DateTime::TimeZone
