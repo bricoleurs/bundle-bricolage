@@ -1,4 +1,4 @@
-Bundle/Bricolage version 1.91
+Bundle/Bricolage version 1.9.1
 ==============================
 
 DESCRIPTION
@@ -51,12 +51,9 @@ XML::Simple              - Easy API to read/write XML (esp config files)
 IO::Stringy              - I/O on in-core objects like strings and arrays
 SOAP::Lite 0.55          - Client and server side SOAP implementation
 File::Temp               - Return name and handle of a temporary file safely
-Text::Soundex            - Implementation of the Soundex Algorithm as Described
-                           by Knuth
+Text::LevenshteinXS      - XS implementation of the Levenshtein edit distance
 Locale::Maketext         - Framework for Localization in Perl
 Test::Class              - xUnit/JUnit style Test Suite System
-HTTP::BrowserDetect      - Determine the Web browser, version, and platform
-                           from an HTTP user agent string
 Params::CallbackRequest 1.10       - Functional and object-oriented callback
                                      architecture
 MasonX::Interp::WithCallbacks 1.10 - Mason callback support via

@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.91';
+our $VERSION = '1.9.1';
 
 1;
 __END__
@@ -107,13 +107,11 @@ SOAP::Lite 0.55 - Client and server side SOAP implementation
 
 File::Temp - Return Name and Handle of a Temporary File Safely
 
-Text::Soundex - Implementation of the Soundex Algorithm as Described by Knuth
+Text::LevenshteinXS - XS implementation of the Levenshtein edit distance
 
 Locale::Maketext - Framework for Localization in Perl
 
 Test::Class - xUnit/JUnit style Test Suite System
-
-HTTP::BrowserDetect - Determine the Web browser, version, and platform from an HTTP user agent string
 
 Params::CallbackRequest 1.10 - Functional and object-oriented callback architecture
 
