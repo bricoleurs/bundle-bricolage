@@ -1,5 +1,5 @@
-Bundle/Bricolage version 1.9.1
-==============================
+Bundle/Bricolage version 1.10.0
+===============================
 
 DESCRIPTION
 
@@ -66,6 +66,7 @@ Data::UUID               - Generate globally/universally unique identifiers
                            (GUIDs/UUIDs)
 List::Util               - A selection of general-utility list subroutines
 List::MoreUtils          - Provides the stuff missing in List::Util
+URI::Escape              - Escape and unescape unsafe URI characters
 
 INSTALLATION
 
@@ -75,7 +76,7 @@ To install this module type the following as root:
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2002-2005, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2006, David Wheeler. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

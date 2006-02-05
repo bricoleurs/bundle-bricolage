@@ -1,12 +1,17 @@
 ---
 name: Bundle-Bricolage
-version: 1.9.0
+version: 1.10.0
 author:
-  - David Wheeler <david@kineticode.com>
+  - 'David Wheeler <david@kineticode.com>'
 abstract: Modules required to run Bricolage content management system.
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 provides:
   Bundle::Bricolage:
     file: lib/Bundle/Bricolage.pm
-    version: 1.9.0
-generated_by: Module::Build version 0.2702
+    version: 1.10.0
+generated_by: Module::Build version 0.2704
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

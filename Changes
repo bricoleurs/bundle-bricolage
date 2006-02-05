@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::Bricolage.
 
+1.10.0
+      - Added URI::Escape
+
 1.9.1
       - Added new modules required for Bricolage 1.9.1:
         + List::Util

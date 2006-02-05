@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.9.1';
+our $VERSION = '1.10.0';
 
 1;
 __END__
@@ -131,6 +131,8 @@ List::Util - A selection of general-utility list subroutines
 
 List::MoreUtils - Provides the stuff missing in List::Util
 
+URI::Escape - Escape and unescape unsafe URI characters
+
 =head1 AUTHOR
 
 David Wheeler <david@kineticode.com>
@@ -144,7 +146,7 @@ optional in Bricolage.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2002-2005, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2006, David Wheeler. All Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
