@@ -1,6 +1,18 @@
 Revision history for Perl module Bundle::Bricolage.
 
-1.10.1
+1.11.0 2008-10-05T22:20:24
+       - Added new modules required for Bricolage 1.11.1:
+         + mod_perl 1.30
+         + Test::File::Contents 0.02
+         + Test::Class 0.04
+         + Params::CallbackRequest 1.16
+         + DateTime 0.21
+         + DateTime::TimeZone 0.2601
+         + Text::Diff
+         + Text::Diff::HTML 0.02
+         + Text::WordDiff
+         + Scalar::Util
+       - Removed Bundle::libnet.
 
 1.10.0  2006-02-05T03:20:08
       - Added new modules required for Bricolage 1.9.1:
