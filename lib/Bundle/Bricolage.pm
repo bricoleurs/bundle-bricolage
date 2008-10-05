@@ -1,6 +1,6 @@
 package Bundle::Bricolage;
 
-our $VERSION = '1.10.1';
+our $VERSION = '1.11.0';
 
 1;
 __END__
@@ -34,8 +34,6 @@ Time::HiRes - High resolution ualarm, usleep, and gettimeofday
 Unix::Syslog - Perl interface to the UNIX syslog(3) calls
 
 Net::Cmd - Network Command class (as used by FTP, SMTP etc)
-
-Bundle::libnet - A bundle to install all libnet related modules
 
 Devel::Symdump - Dump symbol names or the symbol table
 
@@ -77,6 +75,8 @@ Exception::Class 1.12 - Perl Exceptions Base Class
 
 Class::Container 0.09 - Glues object frameworks together transparently
 
+mod_perl 1.30 - Embed a Perl interpreter in the Apache HTTP server
+
 Apache::Request 1.0 - Generate compiler and linker flags for libapreq
 
 HTML::Mason 1.23 - High-Performance, Dynamic Web Site Authoring System
@@ -93,7 +93,7 @@ Test::Simple - Basic utilities for writing tests
 
 Test::MockModule 0.04 - Override subroutines in a module for unit testing
 
-Test::File::Contents - Test routines for examining the contents of files
+Test::File::Contents 0.02 - Test routines for examining the contents of files
 
 Text::Balanced - Extract delimited text sequences from strings
 
@@ -111,17 +111,17 @@ Text::LevenshteinXS - XS implementation of the Levenshtein edit distance
 
 Locale::Maketext - Framework for Localization in Perl
 
-Test::Class - xUnit/JUnit style Test Suite System
+Test::Class 0.04 - xUnit/JUnit style Test Suite System
 
-Params::CallbackRequest 1.10 - Functional and object-oriented callback architecture
+Params::CallbackRequest 1.16 - Functional and object-oriented callback architecture
 
 MasonX::Interp::WithCallbacks 1.10 - Mason callback support via Params::CallbackRequest
 
 Safe 2.09 - Compile and execute code in restricted compartments
 
-DateTime - Date and time objects
+DateTime 0.21 - Date and time objects
 
-DateTime::TimeZone - Time zone object base class and factory
+DateTime::TimeZone 0.2601 - Time zone object base class and factory
 
 Term::ReadPassword - Prompt for passwords without echoing to the terminal
 
@@ -131,7 +131,15 @@ List::Util - A selection of general-utility list subroutines
 
 List::MoreUtils - Provides the stuff missing in List::Util
 
+Text::Diff - Perform diffs on files and record sets
+
+Text::Diff::HTML 0.02 - XHTML format for Text::Diff::Unified
+
+Text::WordDiff - Track changes between documents
+
 URI::Escape - Escape and unescape unsafe URI characters
+
+Scalar::Util - A selection of general−utility scalar subroutines
 
 =head1 AUTHOR
 
@@ -146,7 +154,7 @@ optional in Bricolage.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2002-2006, David Wheeler. All Rights Reserved.
+Copyright (c) 2002-2008, David E. Wheeler. Some Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
