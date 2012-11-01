@@ -71,7 +71,7 @@ Text::Diff               - Perform diffs on files and record sets
 Text::Diff::HTML 0.02    - XHTML format for Text::Diff::Unified
 Text::WordDiff           - Track changes between documents
 URI::Escape              - Escape and unescape unsafe URI characters
-Scalar::Util             - A selection of general−utility scalar subroutines
+Scalar::Util             - A selection of general-utility scalar subroutines
 
 INSTALLATION
 

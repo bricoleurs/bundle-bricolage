@@ -139,7 +139,7 @@ Text::WordDiff - Track changes between documents
 
 URI::Escape - Escape and unescape unsafe URI characters
 
-Scalar::Util - A selection of general−utility scalar subroutines
+Scalar::Util - A selection of general-utility scalar subroutines
 
 =head1 AUTHOR
 

@@ -1,6 +1,7 @@
 Revision history for Perl module Bundle::Bricolage.
 
 2.0.0
+      - Fixed encoding issue in Pod.
 
 1.11.0 2008-10-05T22:20:24
        - Added new modules required for Bricolage 1.11.1:
