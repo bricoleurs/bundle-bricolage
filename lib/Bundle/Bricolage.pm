@@ -147,7 +147,7 @@ David Wheeler <david@kineticode.com>
 
 =head1 SEE ALSO
 
-The Bricolage home page, at L<http://bricolage.cc/>.
+The L<Bricolage home page|http://bricolagecms.org/>.
 
 See L<Bundle::BricolagePlus|Bundle::BricolagePlus> for modules that are
 optional in Bricolage.
